@@ -1,8 +1,56 @@
 
-nav {
+.navbarMain {
     display: flex;
+    justify-content: space-around;
+    align-items: center;
     box-sizing: border-box;
     height: 15vh;
     width: 100vw;
     background-color: rgb(150, 160, 95);
+    
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.navLogo {
+    font-family: 'Young Serif', serif;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+.navSearchForm {
+    display: flex;
+    width: 650px;
+    height: 45px;
+    justify-content: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.searchDropdown {
+    width: 80px;
+    background-color: rgb(235, 232, 232);
+    cursor: pointer;
+    border: none;
+    outline: none;
+    padding: 7px;
+    font-size: 1rem;
+}
+
+.searchField {
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 7px;
+}
+
+.searchBtn {
+    width: 60px;
+    border: none;
+    outline: none;
+
+}
+.searchBtn svg {
+    font-size: 1.5rem;
+    cursor: pointer;
 }
