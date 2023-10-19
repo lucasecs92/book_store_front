@@ -1,0 +1,7 @@
+nav {
+    display: flex;
+    box-sizing: border-box;
+    height: 15vh;
+    width: 100vw;
+    background-color: rgb(150, 160, 95);
+}
