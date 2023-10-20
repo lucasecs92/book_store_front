@@ -1,4 +1,4 @@
-import { MagnifyingGlass } from '@phosphor-icons/react'
+import { Basket, MagnifyingGlass, User } from '@phosphor-icons/react'
 import styles from './NavBar.module.css'
 
 export function NavBar() {
@@ -23,10 +23,18 @@ export function NavBar() {
                     <MagnifyingGlass />
                 </button>
             </form>
-            <section className={styles.navRight}>
-                <p>Login</p>
-                <p>CART</p>
-            </section>
+            <nav className={styles.navRight}>
+                <ul className={styles.navRightUl}>
+                    <li className={styles.navLogin}>
+                        <aside><User /></aside>
+                        <a href="#">Login</a>
+                    </li>
+                    <li className={styles.navCart}>
+                        <aside><Basket /></aside>
+                        <a href="#">Basket</a>
+                    </li>
+                </ul>
+            </nav>
         </nav>      
     )
 }

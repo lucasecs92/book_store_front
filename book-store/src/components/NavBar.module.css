@@ -42,15 +42,46 @@
     border: none;
     outline: none;
     padding: 7px;
+    font-size: 1rem;
 }
 
 .searchBtn {
     width: 60px;
     border: none;
     outline: none;
-
+    cursor: pointer;
 }
 .searchBtn svg {
     font-size: 1.5rem;
-    cursor: pointer;
 }
+
+.navRightUl {
+    display: flex;
+    text-align: center;    
+}
+
+.navLogin,
+.navCart {
+    margin: 5px;
+    padding: 3px;
+    width: 5vw;
+    background-color: darksalmon;
+    cursor: pointer;
+    list-style: none;
+    font-size: 1rem;
+    border-radius: 3px;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.navLogin svg,
+.navCart svg {
+    font-size: 1.8rem;
+}
+
+.navLogin a,
+.navCart a {
+    text-decoration: none;
+}
+
