@@ -9,7 +9,7 @@ export function NavBar() {
             </section>
             <form className={styles.navSearchForm}>
                 <select className={styles.searchDropdown}>
-                    <option value="Todos">Todos</option>
+                    <option value="Todos">Todos</option>   
                     <option value="Livros">Livros</option>
                     <option value="Hq">Quadrinhos</option>
                     <option value="Ebooks">eBooks</option>
@@ -29,7 +29,7 @@ export function NavBar() {
                         <aside><User /></aside>
                         <a href="#">Login</a>
                     </li>
-                    <li className={styles.navCart}>
+                    <li className={styles.navBasket}>
                         <aside><Basket /></aside>
                         <a href="#">Basket</a>
                     </li>

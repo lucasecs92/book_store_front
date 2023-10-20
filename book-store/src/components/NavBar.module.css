@@ -1,12 +1,12 @@
 
 .navbarMain {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     box-sizing: border-box;
     height: 15vh;
     width: 100vw;
-    background-color: rgb(150, 160, 95);
+    background-color: #F4E869;
     
     font-family: 'Raleway', sans-serif;
 
@@ -14,7 +14,7 @@
 
 .navLogo {
     font-family: 'Young Serif', serif;
-    font-size: 2rem;
+    font-size: 2.2rem;
     text-decoration: none;
 }
 
@@ -34,7 +34,7 @@
     border: none;
     outline: none;
     padding: 7px;
-    font-size: 1rem;
+    font-size: 0.9rem;
 }
 
 .searchField {
@@ -55,33 +55,42 @@
     font-size: 1.5rem;
 }
 
+.navRight {
+    display: flex;
+}
+
 .navRightUl {
     display: flex;
     text-align: center;    
 }
 
 .navLogin,
-.navCart {
+.navBasket {
     margin: 5px;
     padding: 3px;
     width: 5vw;
-    background-color: darksalmon;
+    background-color: #F4E869;
     cursor: pointer;
     list-style: none;
     font-size: 1rem;
-    border-radius: 3px;
+    border-radius: 8px;
 
     display: flex;
     flex-direction: column;
 }
 
+.navLogin:hover,
+.navBasket:hover {
+    background-color: #ecebdf83;
+}
+
 .navLogin svg,
-.navCart svg {
+.navBasket svg {
     font-size: 1.8rem;
 }
 
 .navLogin a,
-.navCart a {
+.navBasket a {
     text-decoration: none;
 }
 
