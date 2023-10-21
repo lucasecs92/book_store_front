@@ -1,12 +1,19 @@
 import './App.module.css'
-import { NavBar } from './components/NavBar'
+import { NavBar } from './components/header/NavBar'
+
+import './global.css'
 
 function App() {
 
   return (
-    <header>
-      <NavBar />
-    </header>
+    <section>
+      <header>
+        <NavBar />
+      </header>
+      <main>
+        
+      </main>
+    </section>
   )   
 }
 

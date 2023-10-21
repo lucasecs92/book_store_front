@@ -8,11 +8,11 @@ export function NavBar() {
                 <a className={styles.navLogo} href="#">Book store</a>
             </section>
             <form className={styles.navSearchForm}>
-                <select className={styles.searchDropdown}>
-                    <option value="Todos">Todos</option>   
-                    <option value="Livros">Livros</option>
-                    <option value="Hq">Quadrinhos</option>
-                    <option value="Ebooks">eBooks</option>
+                <select className={styles.dropdownMenu}>
+                    <option className={styles.dropdownItem} value="Todos">Todos</option>   
+                    <option className={styles.dropdownItem} value="Livros">Livros</option>
+                    <option className={styles.dropdownItem} value="Hq">Quadrinhos</option>
+                    <option className={styles.dropdownItem} value="Ebooks">eBooks</option>
                 </select>
                 <input 
                     className={styles.searchField}
@@ -29,9 +29,9 @@ export function NavBar() {
                         <aside><User /></aside>
                         <a href="#">Login</a>
                     </li>
-                    <li className={styles.navBasket}>
+                    <li className={styles.navCart}>
                         <aside><Basket /></aside>
-                        <a href="#">Basket</a>
+                        <a href="#">Cart</a>
                     </li>
                 </ul>
             </nav>
