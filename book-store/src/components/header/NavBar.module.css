@@ -5,7 +5,7 @@
     align-items: center;
     box-sizing: border-box;
     height: 15vh;
-    width: 100vw;
+    width: 100%;
     background-color: var(--yellow);    
     font-family: 'Raleway', sans-serif;
 }
@@ -105,7 +105,7 @@
 @media (max-width: 976px) {
 
     .navbarMain {
-        height: 25vh;
+        height: auto;
         display: grid;  
         grid-template-columns: repeat(5, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -129,12 +129,30 @@
 @media (max-width: 780px) {
     
     /* html {
-        font-size: 87.5%;
-    }  */
+        font-size: 87.5%;   
+    }   */
+    .navbarMain {
+        grid-template-columns: none;
+    }
+
+    .navLeft, 
+    .navSearchForm,
+    .navRight {
+        width: 100%;
+    }
+
+    .navLogin, 
+    .navCart {
+        margin-right: 20px;
+    }
 
     .navLogin a,
     .navCart a {
         display: none;
+    }
+
+    .navLogo {
+        width: 100%;
     }
 
 }
