@@ -10,9 +10,11 @@ export function NavBar() {
             <form className={styles.navSearchForm}>
                 <select className={styles.dropdownMenu}>
                     <option className={styles.dropdownItem} value="Todos">Todos</option>   
-                    <option className={styles.dropdownItem} value="Livros">Livros</option>
-                    <option className={styles.dropdownItem} value="Hq">Quadrinhos</option>
-                    <option className={styles.dropdownItem} value="Ebooks">eBooks</option>
+                    <option className={styles.dropdownItem} value="Nome do livro">Nome do livro</option>
+                    <option className={styles.dropdownItem} value="Autor">Autor</option>
+                    <option className={styles.dropdownItem} value="Titulo">Título</option>
+                    <option className={styles.dropdownItem} value="Editora">Editora</option>
+                    <option className={styles.dropdownItem} value="Descrição">Descrição</option>
                 </select>
                 <input 
                     className={styles.searchField}

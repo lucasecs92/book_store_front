@@ -1,0 +1,12 @@
+.dividingLine {
+    height: 30px;
+    width: 100vw;
+    background-color: var(--beige);
+}
+
+.banner {
+    height: 80vh;
+    width: 100vw;
+    background-color: black;
+    color: #fff;
+}

@@ -1,0 +1,11 @@
+.dividingLine {
+    height: 15px;
+    width: 100vw;
+    background-color: var(--beige);
+}
+
+.footer {
+    height: 430px;
+    width: 100vw;
+    background-color: var(--yellow);
+}

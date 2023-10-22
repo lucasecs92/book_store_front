@@ -1,5 +1,7 @@
 import './App.module.css'
-import { NavBar } from './components/header/NavBar'
+import { Footer } from './components/Footer/Footer'
+import { NavBar } from './components/Header/NavBar'
+import { HomePage } from './components/Main/Homepage/HomePage'
 
 import './global.css'
 
@@ -10,9 +12,12 @@ function App() {
       <header>
         <NavBar />
       </header>
-      <main>
-        
+      <main>  
+        <HomePage />
       </main>
+      <footer>
+        <Footer />
+      </footer>
     </section>
   )   
 }
