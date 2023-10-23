@@ -4,8 +4,45 @@
     background-color: var(--beige);
 }
 
-.footer {
+.mainFooter {
     height: 430px;
     width: 100vw;
     background-color: var(--yellow);
+    border-bottom: 1px solid var(--lightgray);
+
+    display: flex;
+    padding: 50px;  
+}
+
+.leftFooter {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.secondaryFooter {
+    height: 18vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+    background-color: var(--yellow);
+    color: var(--navy);
+}
+
+.socialLogos {
+    display: flex;
+    gap: 1.875rem;
+}
+
+.socialItem {
+    font-size: 1.5rem;
+    color: var(--blue);
+}
+
+.logo {
+    font-family: 'Young Serif', serif;
+    font-size: 2.2rem;
+    text-decoration: none;
+    color: var(--blue);
 }
