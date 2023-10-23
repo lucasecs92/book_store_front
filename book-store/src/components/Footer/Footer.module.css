@@ -45,7 +45,7 @@
 .footerWrapper ul li a {
     text-decoration: none;
     font-size: 0.850rem;
-    color: navy;
+    color: var(--navy);
 }
 .footerWrapper ul li a:hover {
     font-weight: bold;
