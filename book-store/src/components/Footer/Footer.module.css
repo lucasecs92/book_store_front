@@ -5,19 +5,50 @@
 }
 
 .mainFooter {
-    height: 430px;
+    height: 330px;
     width: 100vw;
     background-color: var(--yellow);
     border-bottom: 1px solid var(--lightgray);
 
     display: flex;
-    padding: 50px;  
+    padding: 80px 50px 50px 50px;
+    align-items: baseline;
 }
 
 .leftFooter {
-    width: 100vw;
+    width: 55vw;
     display: flex;
     justify-content: center;
+}
+
+.rightFooter {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+
+.footerWrapper {
+    width: 15vw;
+}
+.footerWrapper h2 {
+    padding-bottom: 1rem;
+    font-family: 'Young Serif', serif;
+    font-weight: 100;
+    color: var(--navy);
+}
+.footerWrapper ul {
+    list-style-type: none;  
+    line-height: 1.8;
+}
+.footerWrapper ul li a {
+    text-decoration: none;
+    font-size: 0.850rem;
+    color: navy;
+}
+.footerWrapper ul li a:hover {
+    font-weight: bold;
 }
 
 .secondaryFooter {
